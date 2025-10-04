@@ -2,20 +2,20 @@
 list of git commands and functions 
 
 # BASICS (Setup & Configuration)
-git --version	Shows the installed Git version.
+git --version	 :Shows the installed Git version.
 
-git config --global user.name "Your Name"	      Sets your global username.
+git config --global user.name "Your Name"	      :Sets your global username.
 
-git config --global user.email "your@email.com"	      Sets your global email for commits.
+git config --global user.email "your@email.com"	      :Sets your global email for commits.
 
-git config --list	        Displays all current Git configurations.
+git config --list	        :Displays all current Git configurations.
 
-git help <command>	      Shows help information for a command.
+git help <command>	      :Shows help information for a command.
 
 # REPOSITORY CREATION
-git init	  Initializes a new local Git repository in the current directory.
+git init	  :Initializes a new local Git repository in the current directory.
 
-git clone <repo_url>	  Clones (downloads) a remote repository to your local system.
+git clone <repo_url>	  :Clones (downloads) a remote repository to your local system.
 
 # STAGING & SNAPSHOTS
 git status	Displays the current state of the working directory and staging area.
@@ -41,11 +41,11 @@ git branch <branch_name>	Creates a new branch.
 
 git checkout <branch_name>	Switches to a different branch.
 
-git switch <branch_name>	Alternative to checkout for switching branches.
+git switch <branch_name>	:Alternative to checkout for switching branches.
 
-git checkout -b <branch_name>	Creates and switches to a new branch.
+git checkout -b <branch_name>	:Creates and switches to a new branch.
 
-git merge <branch_name>	Merges the specified branch into the current branch.
+git merge <branch_name>	 :Merges the specified branch into the current branch.
 
 git branch -d <branch_name>	Deletes a branch that has been merged.
 
