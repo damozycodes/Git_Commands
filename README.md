@@ -3,9 +3,13 @@ list of git commands and functions
 
 # BASICS (Setup & Configuration)
 git --version	Shows the installed Git version.
+
 git config --global user.name "Your Name"	Sets your global username.
+
 git config --global user.email "your@email.com"	Sets your global email for commits.
+
 git config --list	Displays all current Git configurations.
+
 git help <command>	Shows help information for a command.
 
 # REPOSITORY CREATION
